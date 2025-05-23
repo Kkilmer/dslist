@@ -98,13 +98,16 @@ dbeaver-ce
 A API estará disponível em:
 🔗 http://localhost:8080
 
-📬 Endpoints Principais
-Método	Endpoint	Descrição
-GET	/games	Lista todos os jogos
-GET	/games/{id}	Detalhes de um jogo específico
-GET	/lists	Lista todas as categorias de jogo
-GET	/lists/{listId}/games	Lista de jogos por categoria
-POST /lists/{listId}/replacement	Reorganiza a posição de um jogo
+## 📬 Endpoints Principais
+
+| Método | Endpoint                          | Descrição                             |
+|--------|-----------------------------------|----------------------------------------|
+| GET    | `/games`                          | Lista todos os jogos                   |
+| GET    | `/games/{id}`                     | Detalhes de um jogo específico         |
+| GET    | `/lists`                          | Lista todas as categorias de jogo      |
+| GET    | `/lists/{listId}/games`           | Lista de jogos por categoria           |
+| POST   | `/lists/{listId}/replacement`     | Reorganiza a posição de um jogo        |
+
 
 🔐 CORS
 Configurado para permitir origens confiáveis durante o desenvolvimento e em produção.
