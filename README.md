@@ -112,31 +112,6 @@ A API estará disponível em:
 🔐 CORS
 Configurado para permitir origens confiáveis durante o desenvolvimento e em produção.
 
-📸 Screenshots
-
-GET	/games:
-
-![Captura de tela 2025-05-23 104233](https://github.com/user-attachments/assets/22d3849d-ce26-4995-b565-438ac6592c9c)
-
-GET	/games/{id}:
-
-![Captura de tela 2025-05-23 104240](https://github.com/user-attachments/assets/843f67ae-b45e-4f48-9bb9-9ab287df35b0)
-
-GET	/lists:
-
-![image](https://github.com/user-attachments/assets/f1348e87-941c-4684-a0ef-46e6265a5980)
-
-
-GET	/lists/{listId}/games:
-
-![image](https://github.com/user-attachments/assets/87823819-3f58-497a-ac37-6f91307d389b)
-
-
-POST /lists/{listId}/replacement:
-
-![Captura de tela 2025-05-23 135941](https://github.com/user-attachments/assets/e587f6ea-ae44-4a81-ae5e-6a08e134f863)
-
-
 💬 Aprendizados
 Durante esse intensivão aprendi:
 
