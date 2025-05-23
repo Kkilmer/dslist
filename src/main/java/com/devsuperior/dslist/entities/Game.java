@@ -15,7 +15,7 @@ public class Game {
     private String title;
 
     @Column(name = "game_year")
-    private Integer year;
+    private Integer gameYear;
 
     private String genre;
     private String platforms;
@@ -36,7 +36,7 @@ public class Game {
                 String imgUrl, String shortDescription, String longDescription) {
         this.id = id;
         this.title = title;
-        this.year = year;
+        this.gameYear = year;
         this.genre = genre;
         this.platforms = platforms;
         this.score = score;
@@ -61,12 +61,12 @@ public class Game {
         this.title = title;
     }
 
-    public Integer getYear() {
-        return year;
+    public Integer getGameYear() {
+        return gameYear;
     }
 
     public void setYear(Integer year) {
-        this.year = year;
+        this.gameYear = year;
     }
 
     public String getGenre() {
